@@ -10,7 +10,10 @@ data class Employee(
         val city: String,
         val salary: Float,
         val gender: String?,
-        val email: String?
+        val email: String?,
+        val position: String, 
+        val department: String 
+
 ) {
     @Id
     var id: String = ""
